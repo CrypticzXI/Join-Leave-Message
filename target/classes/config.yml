@@ -1,0 +1,208 @@
+
+#   *****            *****         **   *****       *****
+#  /**//       *    ////**        **   /**//       ////**
+#  /**        /*       /**       **    /**            /**
+#  /**     *********   /**      **     /**    *****   /**
+#  /**    /////*///    /**     **      /**   /////    /**
+#  /**        /*       /**    **       /**            /**
+#  /*****     /      *****   **        /*****       *****
+#  /////            /////   //         /////       /////
+
+
+# Please don't remove anything from this config, Please only edit the things between the " "
+
+
+# Choices
+#   Default
+#   Vip 1
+#   Vip 2
+#   Staff
+#   Management
+
+AdminPermission: "jlm.admin"
+
+
+# -------- Start of Default -------- #
+
+DefaultEnabled: true
+
+DefaultPermission: "jlm.default"
+
+# Sends a personal to the user that joins, With the permission above.
+DefaultPersonalJoinMessageEnabled: true
+DefaultPersonalJoinMessage:
+  - "&a&m--------------&c&m---------------"
+  - "          &fWelcome %player_name%"
+  - "&a&m--------------&c&m---------------"
+
+# Join if first time
+DefaultJoinMessagePublicEnabled: true #must equal "true" - "false"
+DefaultJoinMessagePublic:
+  - "&7[&a+&7] %player_name%"
+
+# Join, If has played before
+DefaultJoinHasPlayedBeforeMessageEnabled: true #This will make JoinMessagePublic work weather or not player has joined.
+DefaultJoinHasPlayedBeforeMessage:
+  - "&7[&a+&7] Welcome back %player_name%"
+
+# Leave Message
+DefaultLeaveMessagePublicEnabled: true #must equal "true" - "false"
+DefaultLeaveMessagePublic:
+  - "&7[&c-&7] %player_name%"
+
+# -------- End of Default -------- #
+
+
+
+
+
+# -------- Start of Vip1 -------- #
+
+Vip1Enabled: true
+
+Vip1Permission: "jlm.vip1"
+
+# Sends a personal to the user that joins, With the permission above.
+Vip1PersonalJoinMessageEnabled: true
+Vip1PersonalJoinMessage:
+  - "&a&m--------------&c&m---------------"
+  - "                   &6&lVIP"
+  - "          &fWelcome %player_name%"
+  - "&a&m--------------&c&m---------------"
+
+# Join if first time
+Vip1JoinMessagePublicEnabled: true #must equal "true" - "false"
+Vip1JoinMessagePublic:
+  - "&f[&a+&f] &f&l%player_name%"
+
+# Join, If has played before
+Vip1JoinHasPlayedBeforeMessageEnabled: true #This will make JoinMessagePublic work weather or not player has joined.
+Vip1JoinHasPlayedBeforeMessage:
+  - "&f[&a+&f] &f&lWelcome back %player_name%"
+
+# Leave Message
+Vip1LeaveMessagePublicEnabled: true #must equal "true" - "false"
+Vip1LeaveMessagePublic:
+  - "&f[&c-&f] &f&l%player_name%"
+
+# -------- End of Vip1 -------- #
+
+
+
+
+
+# -------- Start of Vip2 -------- #
+
+Vip2Enabled: true
+
+Vip2Permission: "jlm.vip2"
+
+# Sends a personal to the user that joins, With the permission above.
+Vip2PersonalJoinMessageEnabled: true
+Vip2PersonalJoinMessage:
+  - "&a&m--------------&c&m---------------"
+  - "                   &6&lVIP"
+  - "          &fWelcome %player_name%"
+  - "&a&m--------------&c&m---------------"
+
+# Join if first time
+Vip2JoinMessagePublicEnabled: true #must equal "true" - "false"
+Vip2JoinMessagePublic:
+  - "&f[&a+&f] &f&l%player_name%"
+
+# Join, If has played before
+Vip2JoinHasPlayedBeforeMessageEnabled: true #This will make JoinMessagePublic work weather or not player has joined.
+Vip2JoinHasPlayedBeforeMessage:
+  - "&f[&a+&f] &f&lWelcome back %player_name%"
+
+# Leave Message
+Vip2LeaveMessagePublicEnabled: true #must equal "true" - "false"
+Vip2LeaveMessagePublic:
+  - "&f[&c-&f] &f&l%player_name%"
+
+# -------- End of Vip2 -------- #
+
+
+
+
+
+# -------- Start of Staff -------- #
+
+StaffEnabled: true
+
+StaffPermission: "jlm.staff"
+
+# Sends a personal to the user that joins, With the permission above.
+StaffPersonalJoinMessageEnabled: true
+StaffPersonalJoinMessage:
+  - "&a&m--------------&c&m---------------"
+  - "                   &6&lVIP"
+  - "          &fWelcome %player_name%"
+  - "&a&m--------------&c&m---------------"
+
+# Join if first time
+StaffJoinMessagePublicEnabled: true #must equal "true" - "false"
+StaffJoinMessagePublic:
+  - "&f[&a+&f] &f&l%player_name%"
+
+# Join, If has played before
+StaffJoinHasPlayedBeforeMessageEnabled: true #This will make JoinMessagePublic work weather or not player has joined.
+StaffJoinHasPlayedBeforeMessage:
+  - "&f[&a+&f] &f&lWelcome back %player_name%"
+
+# Leave Message
+StaffLeaveMessagePublicEnabled: true #must equal "true" - "false"
+StaffLeaveMessagePublic:
+  - "&f[&c-&f] &f&l%player_name%"
+
+# -------- End of Staff -------- #
+
+
+
+
+
+# -------- Start of Management -------- #
+
+# Defaults to OP.
+
+ManagementEnabled: true
+
+ManagementPermission: "jlm.management"
+
+# Sends a personal to the user that joins, With the permission above.
+ManagementPersonalJoinMessageEnabled: true
+ManagementPersonalJoinMessage:
+  - "&a&m--------------&c&m---------------"
+  - "                   &6&lVIP"
+  - "          &fWelcome %player_name%"
+  - "&a&m--------------&c&m---------------"
+
+# Join if first time
+ManagementJoinMessagePublicEnabled: true #must equal "true" - "false"
+ManagementJoinMessagePublic:
+  - "&f[&a+&f] &f&l%player_name%"
+
+# Join, If has played before
+ManagementJoinHasPlayedBeforeMessageEnabled: true #This will make JoinMessagePublic work weather or not player has joined.
+ManagementJoinHasPlayedBeforeMessage:
+  - "&f[&a+&f] &f&lWelcome back %player_name%"
+
+# Leave Message
+ManagementLeaveMessagePublicEnabled: true #must equal "true" - "false"
+ManagementLeaveMessagePublic:
+  - "&f[&c-&f] &f&l%player_name%"
+
+# -------- End of Staff -------- #
+
+
+
+
+
+
+
+
+
+
+
+
+

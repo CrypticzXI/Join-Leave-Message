@@ -1,0 +1,11 @@
+name: Join-Leave-Messages
+version: 1.0
+main: main.java
+api-version: 1.16
+
+depend: [PlaceholderAPI]
+
+commands:
+  jlm:
+    description: All commands for Join-Leave-Messages
+    usage: /<command>
